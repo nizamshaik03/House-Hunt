@@ -1,0 +1,32 @@
+.slide {
+  height: 100vh;
+  position: relative;
+
+  .slide_overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .slide_button {
+    background-color: #ff2d34;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ff0000;
+    }
+  }
+}

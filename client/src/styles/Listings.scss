@@ -1,0 +1,18 @@
+.listings-container {
+  padding: 20px 20px;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+
+  .listings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3 in a row
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto; // center the grid
+  }
+}
