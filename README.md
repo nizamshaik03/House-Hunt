@@ -1,42 +1,67 @@
 # 🏡 House Hunt - DreamNest
 
-A full-stack house rental application for discovering and booking properties in Kadapa, Andhra Pradesh. Built using **React**, **Node.js**, **Express**, and **MongoDB**.
+A full-stack **House Renting Application** built with **React**, **Node.js**, **Express**, and **MongoDB**. It allows users to browse, filter, and book rental homes, primarily targeting the Kadapa region.
+
+---
+
+## 🎥 Demo Video
+
+[Click here to watch the demo](https://drive.google.com/file/d/1Z1PtCex_PGKrvqf3D7iLWZeQz4bl5-Qs/view?usp=drive_link)
 
 ---
 
 ## 🌐 Live Demo
 
-> 🔗 [Live Link (Add after deployment)](#)
+> Coming Soon (Add Vercel/Render deployment link here)
 
 ---
 
 ## 📸 Screenshots
 
-![Homepage](./client/public/screenshot-home.png)
-![Login Page](./client/public/screenshot-login.png)
+> Make sure the following images are placed in your `client/public` folder and pushed to GitHub.
 
----
+```markdown
+![Homepage](./client/public/screenshot-home.jpg)
+![Login Page](./client/public/screenshot-login.jpg)
+![Listing Details](./client/public/screenshot-details.jpg)
+⚙️ Tech Stack
+Frontend:
+React.js
 
-## 🛠️ Tech Stack
+Redux Toolkit
 
-**Frontend**:  
-- React  
-- Redux Toolkit  
-- SCSS (Modular styling)
+SCSS for styling
 
-**Backend**:  
-- Node.js  
-- Express.js  
-- MongoDB (Mongoose)
+React Router
 
-**Other Tools**:  
-- JWT Authentication  
-- REST APIs  
-- Git & GitHub  
-- Render (for backend)  
-- Vercel (for frontend)
+Backend:
+Node.js
 
----
+Express.js
 
-## 📁 Project Structure
+MongoDB + Mongoose
 
+JWT Authentication
+
+Tools & Platforms:
+Git & GitHub
+
+Google Drive (for demo)
+
+(Optional) Vercel / Render for deployment
+
+🏗️ Project Structure
+csharp
+Copy code
+House-Hunt/
+├── client/           # React frontend
+│   ├── src/
+│   ├── public/
+│   └── ...
+├── server/           # Node.js backend
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── ...
+├── README.md
+├── .gitignore
